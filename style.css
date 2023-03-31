@@ -1,11 +1,19 @@
 .title{
     text-align:center;
 }
+.Stitle{
+    margin-left:auto;
+    margin-right:auto;
+    width:800px;
+}
 table{
-    width:100%;
+    width:800px;
     border-top: 2px solid black;
     border-bottom:2px solid black;
     border-collapse:collapse;
+    margin-left:auto;
+    margin-right:auto;
+    table-layout:fixed;
 }
 td{
     border:1px solid black;
@@ -17,9 +25,35 @@ td:first-child{
 td:last-child{
     border-right:none;
 }
-.cell1{
-    width:100px;
+
+.cell1_1{
+    width:80px;
     background-color: rgb(226,226,226);
     text-align: center;
+}
+.cell1_2{
+    text-align:center;
+}
+.cell2_1{
+    text-align:center;
+    background-color: rgb(226,226,226);
+    width: 130px;
+    padding:10px;
+}
+.cell2_2{
+    text-align:center;
+    background-color: rgb(226,226,226);
+    width: 430px;
+    padding:10px;
+}
+.cell2_3{
+    text-align:center;
+    background-color: rgb(226,226,226);
+    width: 180px;
+    padding:10px;
+}
+.cell2_4{
+    text-align:center;
+    width: 130px;
     padding:10px;
 }
